@@ -1,58 +1,39 @@
 {
   "manifest_version": 2,
-
   "name": "GC Dark Mode Minimalist",
-
   "short_name": "GC Dark Mode",
-
   "description":"Google Chrome (GC) Dark Mode minimalist color theme with better current tab highlighting. Like it? https://endurtech.com/give-thanks/",  
-
   "version":"1.5",
-
   "icons": {
     "128": "images/icon_128.png"
   },  
-
   "theme": {
-
     "images": {
       "theme_frame": "images/frame.png",
       "theme_toolbar": "images/toolbar.png",
       "theme_tab_background": "images/background_tab.png"
     },
-    
     "colors": {
       "frame": [32,33,36],
-      
 			"frame_incognito": [32, 33, 36],
 			"frame_incognito_inactive": [60, 64, 67],
-      
       "toolbar": [50,54,57],
-      
       "tab_text": [241,243,244],
       "tab_background_text": [189,193,198],
 			"tab_background_text_incognito": [189, 193, 198],
-
 			"tab_background_text_incognito_inactive": [168, 171, 175],
-      
       "bookmark_text": [241,243,244],
-      
       "ntp_background": [50,54,57],
       "ntp_text": [255,255,255],
-
       "ntp_link": [6,55,116],
-      
       "button_background": [0,80,212,0.01]
     },
-    
     "tints": {
       "buttons": [0.56,0.12,0.95]
     },
-    
     "properties": {
       "ntp_background_alignment": "bottom",
       "ntp_background_repeat": "no-repeat"
     }
-    
   }
 }
